@@ -50,6 +50,8 @@ h1 { margin: 0; font-size: clamp(48px, 8vw, 92px); line-height: 0.86; font-weigh
 .clause { display: flex; flex-direction: column; gap: 8px; padding: 22px 0; border-bottom: 1px solid var(--rule); }
 .clause h2 { margin: 0; font-size: 22px; }
 .clause p { margin: 0; font-size: 16px; line-height: 1.6; color: var(--muted); }
+.clause .points { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.6; color: var(--muted); }
+.clause strong { color: var(--ink); font-weight: 600; }
 
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 40px; padding-top: 16px; }
 .colhead { display: flex; align-items: center; gap: 10px; padding-bottom: 14px; }
